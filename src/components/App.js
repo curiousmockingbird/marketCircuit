@@ -1,13 +1,13 @@
 import React from "react";
 import MarketLocationControl from "./MarketLocationControl";
-import CropOfferingControl from "./CropOfferingControl";
+// import CropOfferingControl from "./CropOfferingControl";
 
 function App() {
   return (
     <React.Fragment>
       <h1>Avery's Organic Farm</h1>
       <MarketLocationControl />
-      <CropOfferingControl />
+      {/* <CropOfferingControl /> */}
     </React.Fragment>
   );
 }

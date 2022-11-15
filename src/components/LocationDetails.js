@@ -12,9 +12,11 @@ function LocationDetails(props){
   );
 }
 
-LocationDetails.PropTypes = {
+LocationDetails.propTypes = {
   day: PropTypes.string,
   location: PropTypes.string,
   hours: PropTypes.string,
   booth: PropTypes.string
 }
+
+export default LocationDetails;
